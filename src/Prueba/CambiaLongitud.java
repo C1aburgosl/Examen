@@ -7,13 +7,18 @@ package Prueba;
 
 /**
  *
- * @author alumno
+ * @author Angelica
  */
 public class CambiaLongitud extends Vector {
 
 
 
 //metodo que borra el elemento de la posicion posicion desplazando a la izquierda todos los elementos
+
+    /**
+     *
+     * @param vector
+     */
     public void borrar (int []vector){
        int posicion=1,i;
        int LongitudActual=0;
@@ -38,6 +43,11 @@ public class CambiaLongitud extends Vector {
      
 
 //metodo que inserta un  elemento en la posicion posicion desplazando a la derecha todos los elementos
+
+    /**
+     *
+     * @param vector
+     */
 public void insertar (int []vector){
        int posicion=1, i;
        int LongitudActual=0;

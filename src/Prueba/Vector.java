@@ -7,7 +7,7 @@ package Prueba;
 
 /**
  *
- * @author alumno
+ * @author Angelica
  */
 public class Vector {
      private int valor;   
@@ -26,6 +26,11 @@ public class Vector {
         this.valor = valor;
     }
     
+    /**
+     *
+     * @param vector
+     * @param i
+     */
     public void Visualizar(int []vector,int i){
          System.out.print("v={");
          for (i=0;i<vector.length;i++){

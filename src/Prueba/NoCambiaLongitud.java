@@ -7,12 +7,18 @@ package Prueba;
 
 /**
  *
- * @author alumno
+ * @author Angelica
  */
 public class NoCambiaLongitud extends Vector{
    
 
     //metodo que modifica el contenido de la posicion posicion de un array con el valor pasado
+
+    /**
+     *
+     * @param vector
+     * @param cambiaLongitud
+     */
     public void modificar(int[] vector, CambiaLongitud cambiaLongitud) {
         int i;
         int posicion = 1;
